@@ -4,7 +4,7 @@ function update() {
 
     mainElement.innerHTML= "Last Sync: " + dateInstance.getDate() + "/"
     + (dateInstance.getMonth()+1)  + "/" 
-    + dateInstance.getFullYear() + " @ "  
+    + dateInstance.getFullYear() + " <br> "  + 
     + dateInstance.getHours() + ":"  
     + dateInstance.getMinutes() + ":" 
     + dateInstance.getSeconds();
